@@ -9,8 +9,8 @@
 ### Описание используемых данных с указанием источников
 1. ans.geojson - полигоны ансамблей и достопримечательных мест в границах Екатеринбурга (источник: https://drive.google.com/drive/folders/1V13Sl1U6sXfS9--cO07EGFrkDQ4Tgo-t )
 2. bounds.geojson - границы города Екатеринбург (источник: OpenStreetMap)
-3. points.geojson - точки всех ОКН в границах Твери (источник: https://drive.google.com/drive/folders/1V13Sl1U6sXfS9--cO07EGFrkDQ4Tgo-t)
-4. pol.geojson - полигоны всех ОКН в границах твери (использован метод point to polygon)
+3. points.geojson - точки всех ОКН в границах Екатеринбурга (источник: https://drive.google.com/drive/folders/1V13Sl1U6sXfS9--cO07EGFrkDQ4Tgo-t)
+4. pol.geojson - полигоны всех ОКН в границах Екатеринбурга (использован метод point to polygon)
 ### Описание основных методов
 1. Метод to_crs - чтобы привести все слои к одной проекции
 2. Создание сетки и картограммы на базе сетки с помощью folium.Choropleth
